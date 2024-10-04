@@ -4,8 +4,8 @@ import seaborn as sns
 import streamlit as st
 sns.set(style='dark')
 
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("https://github.com/saniapradnya/sania-dicoding/blob/4b777a4b6a27ba3d32bf730aad420f600d681077/data/day.csv")
+hour_df = pd.read_csv("https://github.com/saniapradnya/sania-dicoding/blob/4b777a4b6a27ba3d32bf730aad420f600d681077/data/hour.csv")
 
 
 st.header('Bike Sharing Dataset Analysis')
